@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "name": "ESP8266 RTOS SDK",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "C:/Users/user/Documents/IoT_DARHO/ESP8266_RTOS_SDK-v3.4/ESP8266_RTOS_SDK/components/**",
+        "C:/darho/esp8266-rtos/academy/samples/blink/build/include"
+      ],
+      "defines": [
+        "ESP_PLATFORM",
+        "ICACHE_FLASH"
+      ],
+      "compilerPath": "C:/esp8266-tools/xtensa-lx106-elf/bin/xtensa-lx106-elf-gcc.exe",
+      "cStandard": "c99",
+      "cppStandard": "c++11",
+      "intelliSenseMode": "gcc-x64"
+    }
+  ],
+  "version": 4
+}
