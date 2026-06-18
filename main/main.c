@@ -193,7 +193,7 @@ static void clear_temp_config(void)
     g_temp_config.config_version = CONFIG_VERSION;
     g_temp_config.provisioned = false;
 }
-
+//h
 static void trim_line_end(char *text)
 {
     size_t len = strlen(text);
